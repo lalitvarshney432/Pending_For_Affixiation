@@ -13,7 +13,7 @@ app.add_middleware(
 app.include_router(routes_auth.router, prefix="/auth", tags=["auth"])
 app.include_router(routes_states.router, prefix="/api", tags=["states"])
 app.include_router(routes_hsrp_states.router, prefix="/api", tags=["HSRP States"])
-app.include_router(routes_BMHSRP.router, prefix="/api", tags=["HSRP States"])
+app.include_router(routes_BMHSRP.router, prefix="/api", tags=["Dealer Details"])
 
 
 
